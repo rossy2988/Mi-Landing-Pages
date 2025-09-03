@@ -1,10 +1,10 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: #1d573e;
-    --secondary-color: #374432;
-    --text-color: #333333;;
-    --background-color: #f4f4f4;
-    --light-gray: #ecf0f1;
+    --primary-color: #3600FF;
+    --secondary-color: #AA00FF;
+    --text-color: #FFFFF;
+    --background-color: #00E6FF;
+    --light-gray: #0086BA;
 }
 
 
@@ -13,14 +13,14 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #00E6FF;
+    color: #FFFFFF;
     scroll-behavior: smooth;
 }
 /*Sección para cambiar color de la barra de sección*/
 .header {
-    background: var(--secondary-color);
-    color: rgb(148, 109, 109);
+    background: #AA00FF;
+    color: #0086BA;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -50,8 +50,8 @@ body {
     list-style: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #00E6FF;
+    color: #00E6FF;
     border-radius: 5px;
 }
 
@@ -63,7 +63,7 @@ body {
     display: flex;
     position: absolute;
     right: 0;
-    background-color: var(--secondary-color);
+    background-color: #AA00FF;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -77,19 +77,19 @@ body {
 }
 
 .accordion-nav .nav-link:hover {
-    color: var(--light-gray);
+    color: #0086BA;
 }
 
 /*Sección para cambiar color de las palabras en la barra de sección*/
 .nav-link {
-    color: rgb(93, 94, 32);
+    color: #0086BA;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: #3600FF;
 }
 
 /* Estilos de secciones */
@@ -101,13 +101,13 @@ body {
 /*Color y tamaño del area para la foto de perfil y resumen*/
 .profile-section {
     padding-top: 100px; /* Espacio para el header fijo */
-    background-color: rgb(243, 243, 243);
+    background-color: #00E6FF;
 }
 
 /*Tamaño del titulo para estudios y experiencia*/
 .section-title {
     font-size: 2rem;
-    color: var(--secondary-color);
+    color: #AA00FF;
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
@@ -118,7 +118,7 @@ body {
     display: block;
     width: 50%;
     height: 4px;
-    background: var(--primary-color);
+    background: #3600FF;
     margin: 10px auto 0;
 }
 
@@ -136,7 +136,7 @@ body {
 .profile-name {
     font-size: 2.5rem;
     margin: 0.5rem 0;
-    color: var(--secondary-color);
+    color: #AA00FF;
 }
 
 .profile-summary {
@@ -162,7 +162,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 .list-inline li {
     display: inline-block;
-    background-color: var(--light-gray);
+    background-color: #0086BA;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 0.5rem;
@@ -189,8 +189,8 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color a la letra o fondo de cada link en el Linktree */
 .linktree-link {
-    background-color: rgb(220, 200, 150);
-    color: rgb(250, 250, 250);
+    background-color: #00E6FF;
+    color: #0086BA;
     text-decoration: none;
     padding: 1rem 2rem;
     width: 250px;
@@ -223,8 +223,8 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color del botón de enviar mensaje y el color de la letra */
 .submit-button {
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #3600FF;
+    color: #3600FF;
     border: none;
     padding: 1rem;
     border-radius: 5px;
@@ -276,4 +276,5 @@ del area de Estudios realizados y experiencia laboral*/
     .list li {
         text-align: center;
     }
+
 }
