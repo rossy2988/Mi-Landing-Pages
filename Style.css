@@ -71,7 +71,7 @@ body {
 }
 
 .accordion-nav .nav-link {
-    color: white; /* Cambiar color de los enlaces dentro del acordeón */
+    color: #AA00FF; /* Cambiar color de los enlaces dentro del acordeón */
     padding: 0.5rem 0;
     display: block;
 }
@@ -152,7 +152,7 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(210, 238, 205);
+    background-color: #00E6FF;
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -242,8 +242,8 @@ del area de Estudios realizados y experiencia laboral*/
 .footer {
     text-align: center;
     padding: 1rem;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: #AAOOFF;
+    color: #0086BA;
 }
 
 /* Media Queries para responsividad  ¡¡¡No tocar, nos da diseño responsive!!! */
@@ -278,3 +278,4 @@ del area de Estudios realizados y experiencia laboral*/
     }
 
 }
+
